@@ -1,9 +1,9 @@
-##### OVERVIEW ##### 
-This repository archive contains code to reproduce the experiments in the NeurIPS 2021 paper [1]. If you use this code in your own work, you are required to cite [1].
+### OVERVIEW
+This repository contains code to reproduce the experiments in the NeurIPS 2021 paper [1]. If you use this code in your own work, you are required to cite [1].
 
 [1] F. Bernard, D. Cremers, J. Thunberg. Sparse Quadratic Optimisation over the Stiefel Manifold with Application to Permutation Synchronisation. NeurIPS 2021
 
-##### RUNNING THE CODE ##### 
+### RUNNING THE CODE  
  Simply run the file
      run_evaluation_house.m
 It should not take more than 10-15 minutes to complete, depending on your hardware 
@@ -12,7 +12,7 @@ specifications.
 The code was successfully tested on Mac OS (11.2).
 
 
-##### EXTERNAL CODE AND LICENSES ##### 
+### EXTERNAL CODE AND LICENSES  
 This package includes (parts of) the following external code:
 - MatchEig
      - source: http://www.diegm.uniud.it/fusiello/demo/mvm/
@@ -31,7 +31,7 @@ This package includes (parts of) the following external code:
 
 
 
-##### ISSUES ##### 
+### ISSUES 
 If you face proplems on Mac OS with unverified mex files, you can resolve 
 these errors by calling the following command from the main folder. 
      sudo xattr -r -d com.apple.quarantine ./external/NmfSync-master/fastAuction_v2.6/
