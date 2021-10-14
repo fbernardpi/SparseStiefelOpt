@@ -5,7 +5,9 @@ This repository contains code to reproduce the experiments in the NeurIPS 2021 p
 
 ### RUNNING THE CODE  
  Simply run the file
+ 
      run_evaluation_house.m
+     
 It should not take more than 10-15 minutes to complete, depending on your hardware 
 specifications.
 
